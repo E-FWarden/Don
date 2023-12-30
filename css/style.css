@@ -73,7 +73,7 @@ h3 {
 }
 header h1 {
     font-size: 3rem;
-    color:#FCE037;
+    color:#FFF5B9;
     font-family: 'Kalnia', serif;
     margin-bottom: 0rem;
     margin-top: 0rem;
@@ -81,7 +81,7 @@ header h1 {
     position: absolute;
     top: 0;
   padding-left: 2rem;
-  padding-top: 5.75rem;
+  padding-top: 12rem;
     left: 0;
     margin: 20px;
    line-height: 4.25rem;
@@ -91,10 +91,7 @@ header h1 {
 
 
 
-.font1{
-   
-    font-family:  'open sans', sans-serif;
-}
+
 
 
 h3 {
