@@ -247,10 +247,46 @@ footer a:hover {
             max-height: 60px;
             padding-right: 2rem;
         }
+        header h1 {
+            font-size: 1rem;
+            color:#0E0E0E;
+            font-family: 'Kalnia', serif;
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+            letter-spacing: 0.15rem;
+            position: absolute;
+            top: 0;
+          padding-left: 2rem;
+          padding-top: 7rem;
+            left: 0;
+            margin: 20px;
+           line-height: 4.25rem;
+            width: 50%; /* Set the width of the text to cover half of the page */
+            box-sizing: border-box; /* Include padding and border in the width calculation */
+         }
 
 }
+
+
 /* Media query for screens between 601px and 900px */
 @media (min-width: 601px) and (max-width: 900px) {
+    header h1 {
+    font-size: 1.5rem;
+    color:#FFF5B9;
+    font-family: 'Kalnia', serif;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    letter-spacing: 0.15rem;
+    position: absolute;
+    top: 0;
+  padding-left: 2rem;
+  padding-top: 4rem;
+    left: 0;
+    margin: 20px;
+   line-height: 4.25rem;
+    width: 50%; /* Set the width of the text to cover half of the page */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+ }
     h1 {
         font-size: 4rem;
     }
@@ -285,6 +321,48 @@ footer a:hover {
         line-height: 60%;
     }
 }
+ 
+@media (min-width: 900px) and (max-width: 1000px) {
+    header h1 {
+        font-size: 1.75rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 2rem;
+      padding-top: 7rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+        width: 50%; /* Set the width of the text to cover half of the page */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+     }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    header h1 {
+        font-size: 2rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 2rem;
+      padding-top: 7rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+        width: 50%; /* Set the width of the text to cover half of the page */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+     }
+
+}
+
 
 
 /* Media query for screens larger than 901px */
