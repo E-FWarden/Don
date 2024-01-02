@@ -343,7 +343,8 @@ footer a:hover {
         width: 50%; /* Set the width of the text to cover half of the page */
         box-sizing: border-box; /* Include padding and border in the width calculation */
      }
-}
+}  
+
 
 @media (min-width: 1000px) and (max-width: 1300px) {
     header h1 {
