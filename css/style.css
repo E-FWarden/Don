@@ -210,6 +210,8 @@ footer a:hover {
    
 /* Media query for screens smaller than 600px */
 @media (max-width: 600px) {
+    
+    
     h1 {
         font-size: 3rem;
     }
@@ -246,6 +248,7 @@ footer a:hover {
         .container {
             max-height: 60px;
             padding-right: 2rem;
+            max-width: 100%;
         }
         header h1 {
             font-size: 1rem;
@@ -261,7 +264,7 @@ footer a:hover {
             left: 0;
             margin: 20px;
            line-height: 4.25rem;
-            width: 50%; /* Set the width of the text to cover half of the page */
+            width: 100%; /* Set the width of the text to cover half of the page */
             box-sizing: border-box; /* Include padding and border in the width calculation */
          }
 
@@ -333,7 +336,7 @@ footer a:hover {
         position: absolute;
         top: 0;
       padding-left: 2rem;
-      padding-top: 7rem;
+      padding-top: 6rem;
         left: 0;
         margin: 20px;
        line-height: 4.25rem;
@@ -400,6 +403,70 @@ footer a:hover {
             font-size: 3rem;
             line-height: 35%;
         }
+      
+        
+} 
+/* Media query for screens larger than 901px */
+@media (min-width: 750px) and (max-width: 845px){
+    header h1 {
+        font-size: 1rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 2rem;
+      padding-top: 5.5rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+        width: 50%; /* Set the width of the text to cover half of the page */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+     }
+      
+        
+} 
+@media (min-width: 630px) and (max-width: 750px){
+    header h1 {
+        font-size: 1rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 1rem;
+      padding-top: 4rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+        width: 50%; /* Set the width of the text to cover half of the page */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+     }
+      
+        
+} @media (min-width: 400px) and (max-width: 630px){
+    header h1 {
+        font-size: 1rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 1rem;
+      padding-top: 4rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+       
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+        max-width:fit-content
+     }
       
         
 } 
