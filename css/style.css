@@ -273,23 +273,7 @@ footer a:hover {
 
 /* Media query for screens between 601px and 900px */
 @media (min-width: 601px) and (max-width: 900px) {
-    header h1 {
-    font-size: 1.5rem;
-    color:#FFF5B9;
-    font-family: 'Kalnia', serif;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-    letter-spacing: 0.15rem;
-    position: absolute;
-    top: 0;
-  padding-left: 2rem;
-  padding-top: 4rem;
-    left: 0;
-    margin: 20px;
-   line-height: 4.25rem;
-    width: 50%; /* Set the width of the text to cover half of the page */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
- }
+  
     h1 {
         font-size: 4rem;
     }
@@ -346,7 +330,7 @@ footer a:hover {
 }  
 
 
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 1000px) and (max-width: 1100px) {
     header h1 {
         font-size: 2rem;
         color:#FFF5B9;
@@ -358,6 +342,25 @@ footer a:hover {
         top: 0;
       padding-left: 2rem;
       padding-top: 7rem;
+        left: 0;
+        margin: 20px;
+       line-height: 4.25rem;
+        width: 50%; /* Set the width of the text to cover half of the page */
+        box-sizing: border-box; /* Include padding and border in the width calculation */
+     }
+
+}@media (min-width: 1100px) and (max-width: 1300px) {
+    header h1 {
+        font-size: 2rem;
+        color:#FFF5B9;
+        font-family: 'Kalnia', serif;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        letter-spacing: 0.15rem;
+        position: absolute;
+        top: 0;
+      padding-left: 2rem;
+      padding-top: 9rem;
         left: 0;
         margin: 20px;
        line-height: 4.25rem;
@@ -408,7 +411,7 @@ footer a:hover {
         
 } 
 /* Media query for screens larger than 901px */
-@media (min-width: 750px) and (max-width: 845px){
+@media (min-width: 750px) and (max-width: 845px) {
     header h1 {
         font-size: 1rem;
         color:#FFF5B9;
@@ -426,8 +429,46 @@ footer a:hover {
         width: 50%; /* Set the width of the text to cover half of the page */
         box-sizing: border-box; /* Include padding and border in the width calculation */
      }
-      
-        
+    }
+    @media (min-width: 845px) and (max-width: 900px) {
+        header h1 {
+            font-size: 2rem;
+            color:#FFF5B9;
+            font-family: 'Kalnia', serif;
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+            letter-spacing: 0.15rem;
+            position: absolute;
+            top: 0;
+          padding-left: 2rem;
+          padding-top: 5.5rem;
+            left: 0;
+            margin: 20px;
+           line-height: 4.25rem;
+            width: 50%; /* Set the width of the text to cover half of the page */
+            box-sizing: border-box; /* Include padding and border in the width calculation */
+         }
+        }
+     @media (min-width: 845px) and (max-width: 901px){
+        header h1 {
+            font-size: 1rem;
+            color:#FFF5B9;
+            font-family: 'Kalnia', serif;
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+            letter-spacing: 0.15rem;
+            position: absolute;
+            top: 0;
+          padding-left: 2rem;
+          padding-top: 5.5rem;
+            left: 0;
+            margin: 20px;
+           line-height: 4.25rem;
+            width: 50%; /* Set the width of the text to cover half of the page */
+            box-sizing: border-box; /* Include padding and border in the width calculation */
+         }
+          
+            
 } 
 @media (min-width: 630px) and (max-width: 750px){
     header h1 {
