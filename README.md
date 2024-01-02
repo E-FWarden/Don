@@ -1,3 +1,3 @@
 # Don
 
--[Version 1](https://E-Fwarden.github.io/Don-Norman/index.html)
+-[Version 1](https://e-fwarden.github.io/Don/)
